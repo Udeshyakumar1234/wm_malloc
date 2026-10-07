@@ -34,12 +34,6 @@
 #include <stdio.h>
 #include <string.h>
 
-#if defined(WM_BUILD_DLL)
-#define WM_API __declspec(dllexport)
-#else
-#define WM_API
-#endif
-
 #if defined(_MSC_VER)
 #define WM_NOINLINE __declspec(noinline)
 #else
