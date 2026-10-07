@@ -101,7 +101,11 @@ As allocation size gets smaller and the allocation count gets larger, `wm_malloc
 | 256 B x 9,000 | `malloc` ~22.2x faster |
 | 128 B x 10,000 | `malloc` ~22.8x faster |
 
-<!-- TODO: add benchmark graph here -->
+<img width="989" height="490" alt="Per-workload wins" src="https://github.com/user-attachments/assets/094cd2e0-b4b1-4763-a042-df6a90df5427" />
+
+<img width="989" height="490" alt="Relative performance by workload (lower is better)" src="https://github.com/user-attachments/assets/54beb579-d15c-4f7f-8384-d5251a65c465" />
+
+
 
 ## Known limitations and future improvements
 
